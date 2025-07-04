@@ -11,7 +11,7 @@ class AccountScreen extends StatelessWidget {
       appBar: AppBar(
 
 
-        title: Text("Account",style: TextStyle(
+        title: const Text("Account",style: TextStyle(
             fontSize: 20,
             color: Colors.black
         ),),
