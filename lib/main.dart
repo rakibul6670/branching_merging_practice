@@ -56,7 +56,9 @@ class _HomePageState extends State<HomePage> {
         title: const Text("title"),
       ),
 
-      body:const Text("Body"),
+      body:Container(
+        child: Text("Body"),
+      ),
 
 
 
